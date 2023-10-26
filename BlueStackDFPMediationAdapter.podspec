@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
 s.name = 'BlueStackDFPMediationAdapter'
-s.version = '1.0.0'
+s.version = '1.0.0-preview.1'
 s.static_framework = true
 s.license = 'MIT'
 s.summary = 'BlueStack Mediation adapter of Google Mobile Ads SDK'
