@@ -15,3 +15,5 @@ s.ios.deployment_target = '13.0'
 s.vendored_frameworks = 'BlueStackDFPMediationAdapter.xcframework'
 s.dependency 'Google-Mobile-Ads-SDK', '10.10.0'
 s.dependency 'BlueStack-SDK', '4.3.0'
+
+end
