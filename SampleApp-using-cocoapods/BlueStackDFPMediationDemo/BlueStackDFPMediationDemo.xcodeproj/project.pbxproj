@@ -1,0 +1,742 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		52A3673E236D009A6498D55D /* Pods_BlueStackDFPMediationDemoObjC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D77F9286896A9410271B3C58 /* Pods_BlueStackDFPMediationDemoObjC.framework */; };
+		CB86B2E92C7F583C00172385 /* GAdNativeAdBluestack.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB86B2E72C7F583C00172385 /* GAdNativeAdBluestack.xib */; };
+		CB86B2EA2C7F583C00172385 /* GAdNativeAdBluestack.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB86B2E82C7F583C00172385 /* GAdNativeAdBluestack.swift */; };
+		CBA71E222C58C05E00CF9EE7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBA71E212C58C05E00CF9EE7 /* AppDelegate.swift */; };
+		CBA71E242C58C05E00CF9EE7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBA71E232C58C05E00CF9EE7 /* SceneDelegate.swift */; };
+		CBA71E292C58C05E00CF9EE7 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = CBA71E282C58C05E00CF9EE7 /* Base */; };
+		CBA71E2B2C58C06000CF9EE7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBA71E2A2C58C06000CF9EE7 /* Assets.xcassets */; };
+		CBA71E2E2C58C06000CF9EE7 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = CBA71E2D2C58C06000CF9EE7 /* Base */; };
+		CBA71E362C58C14A00CF9EE7 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBA71E352C58C14A00CF9EE7 /* Constants.swift */; };
+		CBA71E382C58C14F00CF9EE7 /* DFPDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBA71E372C58C14F00CF9EE7 /* DFPDemoViewController.swift */; };
+		CBA71E412C58C94700CF9EE7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CBA71E402C58C94700CF9EE7 /* AppDelegate.m */; };
+		CBA71E442C58C94700CF9EE7 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CBA71E432C58C94700CF9EE7 /* SceneDelegate.m */; };
+		CBA71E4A2C58C94700CF9EE7 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = CBA71E492C58C94700CF9EE7 /* Base */; };
+		CBA71E4C2C58C94800CF9EE7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBA71E4B2C58C94800CF9EE7 /* Assets.xcassets */; };
+		CBA71E4F2C58C94800CF9EE7 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = CBA71E4E2C58C94800CF9EE7 /* Base */; };
+		CBA71E522C58C94800CF9EE7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CBA71E512C58C94800CF9EE7 /* main.m */; };
+		CBA71E582C58CA8600CF9EE7 /* DFPDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBA71E572C58CA8600CF9EE7 /* DFPDemoViewController.m */; };
+		CBA71E5C2C58CAE800CF9EE7 /* GAdNativeAdBluestack.xib in Resources */ = {isa = PBXBuildFile; fileRef = CBA71E592C58CAE800CF9EE7 /* GAdNativeAdBluestack.xib */; };
+		CBA71E5D2C58CAE800CF9EE7 /* GAdNativeAdBluestack.m in Sources */ = {isa = PBXBuildFile; fileRef = CBA71E5B2C58CAE800CF9EE7 /* GAdNativeAdBluestack.m */; };
+		E2DEB73AA3BF774CDE650BCD /* Pods_BlueStackDFPMediationDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCE30530906A6CA7FC7841D0 /* Pods_BlueStackDFPMediationDemo.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3755F152E716AC249E31A7A1 /* Pods-BlueStackDFPMediationDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlueStackDFPMediationDemo.release.xcconfig"; path = "Target Support Files/Pods-BlueStackDFPMediationDemo/Pods-BlueStackDFPMediationDemo.release.xcconfig"; sourceTree = "<group>"; };
+		9CD9D14FB098341E3E24113D /* Pods-BlueStackDFPMediationDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlueStackDFPMediationDemo.debug.xcconfig"; path = "Target Support Files/Pods-BlueStackDFPMediationDemo/Pods-BlueStackDFPMediationDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		A5D1635A68BD7D0419AC0F85 /* Pods-BlueStackDFPMediationDemoObjC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlueStackDFPMediationDemoObjC.debug.xcconfig"; path = "Target Support Files/Pods-BlueStackDFPMediationDemoObjC/Pods-BlueStackDFPMediationDemoObjC.debug.xcconfig"; sourceTree = "<group>"; };
+		C0ACCF1FE09079E183064625 /* Pods-BlueStackDFPMediationDemoObjC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlueStackDFPMediationDemoObjC.release.xcconfig"; path = "Target Support Files/Pods-BlueStackDFPMediationDemoObjC/Pods-BlueStackDFPMediationDemoObjC.release.xcconfig"; sourceTree = "<group>"; };
+		CB86B2E72C7F583C00172385 /* GAdNativeAdBluestack.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GAdNativeAdBluestack.xib; sourceTree = "<group>"; };
+		CB86B2E82C7F583C00172385 /* GAdNativeAdBluestack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GAdNativeAdBluestack.swift; sourceTree = "<group>"; };
+		CBA71E1E2C58C05E00CF9EE7 /* BlueStackDFPMediationDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlueStackDFPMediationDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBA71E212C58C05E00CF9EE7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CBA71E232C58C05E00CF9EE7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CBA71E282C58C05E00CF9EE7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CBA71E2A2C58C06000CF9EE7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CBA71E2D2C58C06000CF9EE7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CBA71E2F2C58C06000CF9EE7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CBA71E352C58C14A00CF9EE7 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		CBA71E372C58C14F00CF9EE7 /* DFPDemoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DFPDemoViewController.swift; sourceTree = "<group>"; };
+		CBA71E3D2C58C94700CF9EE7 /* BlueStackDFPMediationDemoObjC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlueStackDFPMediationDemoObjC.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBA71E3F2C58C94700CF9EE7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CBA71E402C58C94700CF9EE7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CBA71E422C58C94700CF9EE7 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		CBA71E432C58C94700CF9EE7 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		CBA71E492C58C94700CF9EE7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CBA71E4B2C58C94800CF9EE7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CBA71E4E2C58C94800CF9EE7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CBA71E502C58C94800CF9EE7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CBA71E512C58C94800CF9EE7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CBA71E562C58CA8600CF9EE7 /* DFPDemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DFPDemoViewController.h; sourceTree = "<group>"; };
+		CBA71E572C58CA8600CF9EE7 /* DFPDemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DFPDemoViewController.m; sourceTree = "<group>"; };
+		CBA71E592C58CAE800CF9EE7 /* GAdNativeAdBluestack.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GAdNativeAdBluestack.xib; sourceTree = "<group>"; };
+		CBA71E5A2C58CAE800CF9EE7 /* GAdNativeAdBluestack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAdNativeAdBluestack.h; sourceTree = "<group>"; };
+		CBA71E5B2C58CAE800CF9EE7 /* GAdNativeAdBluestack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GAdNativeAdBluestack.m; sourceTree = "<group>"; };
+		D77F9286896A9410271B3C58 /* Pods_BlueStackDFPMediationDemoObjC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BlueStackDFPMediationDemoObjC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCE30530906A6CA7FC7841D0 /* Pods_BlueStackDFPMediationDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BlueStackDFPMediationDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CBA71E1B2C58C05E00CF9EE7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2DEB73AA3BF774CDE650BCD /* Pods_BlueStackDFPMediationDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBA71E3A2C58C94700CF9EE7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52A3673E236D009A6498D55D /* Pods_BlueStackDFPMediationDemoObjC.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1BDA3DEA44BC2BC9B951E2CF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9CD9D14FB098341E3E24113D /* Pods-BlueStackDFPMediationDemo.debug.xcconfig */,
+				3755F152E716AC249E31A7A1 /* Pods-BlueStackDFPMediationDemo.release.xcconfig */,
+				A5D1635A68BD7D0419AC0F85 /* Pods-BlueStackDFPMediationDemoObjC.debug.xcconfig */,
+				C0ACCF1FE09079E183064625 /* Pods-BlueStackDFPMediationDemoObjC.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		CBA71E152C58C05E00CF9EE7 = {
+			isa = PBXGroup;
+			children = (
+				CBA71E202C58C05E00CF9EE7 /* BlueStackDFPMediationDemo */,
+				CBA71E3E2C58C94700CF9EE7 /* BlueStackDFPMediationDemoObjC */,
+				CBA71E1F2C58C05E00CF9EE7 /* Products */,
+				1BDA3DEA44BC2BC9B951E2CF /* Pods */,
+				F294D483FEA05624F4B2DD9B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CBA71E1F2C58C05E00CF9EE7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CBA71E1E2C58C05E00CF9EE7 /* BlueStackDFPMediationDemo.app */,
+				CBA71E3D2C58C94700CF9EE7 /* BlueStackDFPMediationDemoObjC.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CBA71E202C58C05E00CF9EE7 /* BlueStackDFPMediationDemo */ = {
+			isa = PBXGroup;
+			children = (
+				CBA71E212C58C05E00CF9EE7 /* AppDelegate.swift */,
+				CBA71E232C58C05E00CF9EE7 /* SceneDelegate.swift */,
+				CBA71E372C58C14F00CF9EE7 /* DFPDemoViewController.swift */,
+				CB86B2E82C7F583C00172385 /* GAdNativeAdBluestack.swift */,
+				CB86B2E72C7F583C00172385 /* GAdNativeAdBluestack.xib */,
+				CBA71E352C58C14A00CF9EE7 /* Constants.swift */,
+				CBA71E272C58C05E00CF9EE7 /* Main.storyboard */,
+				CBA71E2A2C58C06000CF9EE7 /* Assets.xcassets */,
+				CBA71E2C2C58C06000CF9EE7 /* LaunchScreen.storyboard */,
+				CBA71E2F2C58C06000CF9EE7 /* Info.plist */,
+			);
+			path = BlueStackDFPMediationDemo;
+			sourceTree = "<group>";
+		};
+		CBA71E3E2C58C94700CF9EE7 /* BlueStackDFPMediationDemoObjC */ = {
+			isa = PBXGroup;
+			children = (
+				CBA71E3F2C58C94700CF9EE7 /* AppDelegate.h */,
+				CBA71E402C58C94700CF9EE7 /* AppDelegate.m */,
+				CBA71E422C58C94700CF9EE7 /* SceneDelegate.h */,
+				CBA71E432C58C94700CF9EE7 /* SceneDelegate.m */,
+				CBA71E562C58CA8600CF9EE7 /* DFPDemoViewController.h */,
+				CBA71E572C58CA8600CF9EE7 /* DFPDemoViewController.m */,
+				CBA71E5A2C58CAE800CF9EE7 /* GAdNativeAdBluestack.h */,
+				CBA71E5B2C58CAE800CF9EE7 /* GAdNativeAdBluestack.m */,
+				CBA71E592C58CAE800CF9EE7 /* GAdNativeAdBluestack.xib */,
+				CBA71E482C58C94700CF9EE7 /* Main.storyboard */,
+				CBA71E4B2C58C94800CF9EE7 /* Assets.xcassets */,
+				CBA71E4D2C58C94800CF9EE7 /* LaunchScreen.storyboard */,
+				CBA71E502C58C94800CF9EE7 /* Info.plist */,
+				CBA71E512C58C94800CF9EE7 /* main.m */,
+			);
+			path = BlueStackDFPMediationDemoObjC;
+			sourceTree = "<group>";
+		};
+		F294D483FEA05624F4B2DD9B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DCE30530906A6CA7FC7841D0 /* Pods_BlueStackDFPMediationDemo.framework */,
+				D77F9286896A9410271B3C58 /* Pods_BlueStackDFPMediationDemoObjC.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CBA71E1D2C58C05E00CF9EE7 /* BlueStackDFPMediationDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CBA71E322C58C06000CF9EE7 /* Build configuration list for PBXNativeTarget "BlueStackDFPMediationDemo" */;
+			buildPhases = (
+				E9FE141F0296B044BFB49A4E /* [CP] Check Pods Manifest.lock */,
+				CBA71E1A2C58C05E00CF9EE7 /* Sources */,
+				CBA71E1B2C58C05E00CF9EE7 /* Frameworks */,
+				CBA71E1C2C58C05E00CF9EE7 /* Resources */,
+				23598F974D26097CE6066826 /* [CP] Embed Pods Frameworks */,
+				3F77C830F785EFB5EB43F4A5 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BlueStackDFPMediationDemo;
+			productName = BlueStackDFPMediationDemo;
+			productReference = CBA71E1E2C58C05E00CF9EE7 /* BlueStackDFPMediationDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CBA71E3C2C58C94700CF9EE7 /* BlueStackDFPMediationDemoObjC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CBA71E532C58C94800CF9EE7 /* Build configuration list for PBXNativeTarget "BlueStackDFPMediationDemoObjC" */;
+			buildPhases = (
+				791643E9765918FA4EB0AB07 /* [CP] Check Pods Manifest.lock */,
+				CBA71E392C58C94700CF9EE7 /* Sources */,
+				CBA71E3A2C58C94700CF9EE7 /* Frameworks */,
+				CBA71E3B2C58C94700CF9EE7 /* Resources */,
+				5C0AF5080A95AB1546B4391A /* [CP] Embed Pods Frameworks */,
+				AC6E6D64C71365E25262D194 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BlueStackDFPMediationDemoObjC;
+			productName = BlueStackDFPMediationDemoObjC;
+			productReference = CBA71E3D2C58C94700CF9EE7 /* BlueStackDFPMediationDemoObjC.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CBA71E162C58C05E00CF9EE7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					CBA71E1D2C58C05E00CF9EE7 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					CBA71E3C2C58C94700CF9EE7 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+				};
+			};
+			buildConfigurationList = CBA71E192C58C05E00CF9EE7 /* Build configuration list for PBXProject "BlueStackDFPMediationDemo" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CBA71E152C58C05E00CF9EE7;
+			productRefGroup = CBA71E1F2C58C05E00CF9EE7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CBA71E1D2C58C05E00CF9EE7 /* BlueStackDFPMediationDemo */,
+				CBA71E3C2C58C94700CF9EE7 /* BlueStackDFPMediationDemoObjC */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CBA71E1C2C58C05E00CF9EE7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBA71E2B2C58C06000CF9EE7 /* Assets.xcassets in Resources */,
+				CBA71E2E2C58C06000CF9EE7 /* Base in Resources */,
+				CBA71E292C58C05E00CF9EE7 /* Base in Resources */,
+				CB86B2E92C7F583C00172385 /* GAdNativeAdBluestack.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBA71E3B2C58C94700CF9EE7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBA71E4C2C58C94800CF9EE7 /* Assets.xcassets in Resources */,
+				CBA71E4F2C58C94800CF9EE7 /* Base in Resources */,
+				CBA71E4A2C58C94700CF9EE7 /* Base in Resources */,
+				CBA71E5C2C58CAE800CF9EE7 /* GAdNativeAdBluestack.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		23598F974D26097CE6066826 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BlueStackDFPMediationDemo/Pods-BlueStackDFPMediationDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BlueStackDFPMediationDemo/Pods-BlueStackDFPMediationDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BlueStackDFPMediationDemo/Pods-BlueStackDFPMediationDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3F77C830F785EFB5EB43F4A5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BlueStackDFPMediationDemo/Pods-BlueStackDFPMediationDemo-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BlueStackDFPMediationDemo/Pods-BlueStackDFPMediationDemo-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BlueStackDFPMediationDemo/Pods-BlueStackDFPMediationDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5C0AF5080A95AB1546B4391A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BlueStackDFPMediationDemoObjC/Pods-BlueStackDFPMediationDemoObjC-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BlueStackDFPMediationDemoObjC/Pods-BlueStackDFPMediationDemoObjC-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BlueStackDFPMediationDemoObjC/Pods-BlueStackDFPMediationDemoObjC-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		791643E9765918FA4EB0AB07 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BlueStackDFPMediationDemoObjC-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AC6E6D64C71365E25262D194 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BlueStackDFPMediationDemoObjC/Pods-BlueStackDFPMediationDemoObjC-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BlueStackDFPMediationDemoObjC/Pods-BlueStackDFPMediationDemoObjC-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BlueStackDFPMediationDemoObjC/Pods-BlueStackDFPMediationDemoObjC-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E9FE141F0296B044BFB49A4E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BlueStackDFPMediationDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CBA71E1A2C58C05E00CF9EE7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBA71E222C58C05E00CF9EE7 /* AppDelegate.swift in Sources */,
+				CB86B2EA2C7F583C00172385 /* GAdNativeAdBluestack.swift in Sources */,
+				CBA71E382C58C14F00CF9EE7 /* DFPDemoViewController.swift in Sources */,
+				CBA71E242C58C05E00CF9EE7 /* SceneDelegate.swift in Sources */,
+				CBA71E362C58C14A00CF9EE7 /* Constants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBA71E392C58C94700CF9EE7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBA71E412C58C94700CF9EE7 /* AppDelegate.m in Sources */,
+				CBA71E522C58C94800CF9EE7 /* main.m in Sources */,
+				CBA71E5D2C58CAE800CF9EE7 /* GAdNativeAdBluestack.m in Sources */,
+				CBA71E442C58C94700CF9EE7 /* SceneDelegate.m in Sources */,
+				CBA71E582C58CA8600CF9EE7 /* DFPDemoViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CBA71E272C58C05E00CF9EE7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CBA71E282C58C05E00CF9EE7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CBA71E2C2C58C06000CF9EE7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CBA71E2D2C58C06000CF9EE7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		CBA71E482C58C94700CF9EE7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CBA71E492C58C94700CF9EE7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CBA71E4D2C58C94800CF9EE7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CBA71E4E2C58C94800CF9EE7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CBA71E302C58C06000CF9EE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CBA71E312C58C06000CF9EE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CBA71E332C58C06000CF9EE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9CD9D14FB098341E3E24113D /* Pods-BlueStackDFPMediationDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = 3DT94432UL;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BlueStackDFPMediationDemo/Info.plist;
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "Tracking usage description";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.azerion.ads.testapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "(ADTECH)Azerion Ads Test Application - Development";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CBA71E342C58C06000CF9EE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3755F152E716AC249E31A7A1 /* Pods-BlueStackDFPMediationDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = 3DT94432UL;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BlueStackDFPMediationDemo/Info.plist;
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "Tracking usage description";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.azerion.ads.testapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "(ADTECH)Azerion Ads Test Application - Development";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CBA71E542C58C94800CF9EE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A5D1635A68BD7D0419AC0F85 /* Pods-BlueStackDFPMediationDemoObjC.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = 3DT94432UL;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BlueStackDFPMediationDemoObjC/Info.plist;
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "Tracking usage description";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.azerion.ads.testapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "(ADTECH)Azerion Ads Test Application - Development";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CBA71E552C58C94800CF9EE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C0ACCF1FE09079E183064625 /* Pods-BlueStackDFPMediationDemoObjC.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = 3DT94432UL;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BlueStackDFPMediationDemoObjC/Info.plist;
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "Tracking usage description";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.azerion.ads.testapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "(ADTECH)Azerion Ads Test Application - Development";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CBA71E192C58C05E00CF9EE7 /* Build configuration list for PBXProject "BlueStackDFPMediationDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBA71E302C58C06000CF9EE7 /* Debug */,
+				CBA71E312C58C06000CF9EE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CBA71E322C58C06000CF9EE7 /* Build configuration list for PBXNativeTarget "BlueStackDFPMediationDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBA71E332C58C06000CF9EE7 /* Debug */,
+				CBA71E342C58C06000CF9EE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CBA71E532C58C94800CF9EE7 /* Build configuration list for PBXNativeTarget "BlueStackDFPMediationDemoObjC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBA71E542C58C94800CF9EE7 /* Debug */,
+				CBA71E552C58C94800CF9EE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CBA71E162C58C05E00CF9EE7 /* Project object */;
+}
