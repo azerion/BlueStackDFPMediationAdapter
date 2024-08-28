@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22684"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="oKy-DR-brZ" customClass="GAdNativeAdBluestack" customModule="BlueStackDFPMediationDemo" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="428" height="460"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Lyo-fT-OfE">
+                    <rect key="frame" x="10" y="10" width="60" height="60"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="60" id="Ad6-ba-r2J"/>
+                        <constraint firstAttribute="height" constant="60" id="jcq-Df-69Z"/>
+                    </constraints>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Vkz-2D-wKm">
+                    <rect key="frame" x="146.5" y="38.5" width="100" height="17"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="100" id="iBS-ev-HIR"/>
+                        <constraint firstAttribute="height" constant="17" id="wzd-rf-GcA"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalCompressionResistancePriority="751" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yqy-HE-zBI">
+                    <rect key="frame" x="10" y="78" width="408" height="33.5"/>
+                    <string key="text">Body that is really really long and can take up to two lines or event maybe three if there is a lot of text to include in the ad</string>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Goa-jg-iGW">
+                    <rect key="frame" x="298" y="408" width="120" height="32"/>
+                    <color key="backgroundColor" systemColor="systemGreenColor"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="32" id="HHJ-bK-AS3"/>
+                        <constraint firstAttribute="width" constant="120" id="RVk-Xg-K0z"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                    <state key="normal" title="Install">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Store" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oxF-ju-w4M">
+                    <rect key="frame" x="253" y="415.5" width="35" height="17"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Headline" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CHo-eF-s3G">
+                    <rect key="frame" x="80" y="10" width="348" height="20.5"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Price" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NbZ-68-dcM">
+                    <rect key="frame" x="210" y="415.5" width="33" height="17"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Advertiser" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aZg-oy-mdr">
+                    <rect key="frame" x="80" y="38.5" width="66.5" height="17"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <view clipsSubviews="YES" contentMode="scaleAspectFill" translatesAutoresizingMaskIntoConstraints="NO" id="W8M-5X-Kk1" customClass="GADMediaView">
+                    <rect key="frame" x="39" y="121.5" width="350" height="231"/>
+                    <color key="backgroundColor" systemColor="systemTealColor"/>
+                    <constraints>
+                        <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="200" id="u2F-tt-f5N"/>
+                        <constraint firstAttribute="width" priority="250" constant="350" id="vyl-na-tb8"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="xEM-o7-TrU"/>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="Goa-jg-iGW" firstAttribute="leading" secondItem="oxF-ju-w4M" secondAttribute="trailing" constant="10" id="0Xl-xz-KrS"/>
+                <constraint firstItem="oxF-ju-w4M" firstAttribute="leading" secondItem="NbZ-68-dcM" secondAttribute="trailing" constant="10" id="1N5-pF-OdJ"/>
+                <constraint firstItem="aZg-oy-mdr" firstAttribute="top" secondItem="CHo-eF-s3G" secondAttribute="bottom" constant="8" symbolic="YES" id="915-2K-DzP"/>
+                <constraint firstItem="Vkz-2D-wKm" firstAttribute="centerY" secondItem="aZg-oy-mdr" secondAttribute="centerY" id="9BP-Wn-ICe"/>
+                <constraint firstItem="aZg-oy-mdr" firstAttribute="leading" secondItem="CHo-eF-s3G" secondAttribute="leading" id="BLa-bd-wni"/>
+                <constraint firstAttribute="trailing" secondItem="Goa-jg-iGW" secondAttribute="trailing" constant="10" id="ED6-0Y-T3U"/>
+                <constraint firstItem="W8M-5X-Kk1" firstAttribute="centerY" secondItem="xEM-o7-TrU" secondAttribute="centerY" id="JAp-sU-R5g"/>
+                <constraint firstItem="Lyo-fT-OfE" firstAttribute="top" secondItem="oKy-DR-brZ" secondAttribute="top" constant="10" id="LX3-is-Fxy"/>
+                <constraint firstItem="Lyo-fT-OfE" firstAttribute="leading" secondItem="oKy-DR-brZ" secondAttribute="leading" constant="10" id="Psy-eF-tmF"/>
+                <constraint firstItem="Lyo-fT-OfE" firstAttribute="top" secondItem="CHo-eF-s3G" secondAttribute="top" id="UI6-0I-2ch"/>
+                <constraint firstAttribute="trailing" secondItem="CHo-eF-s3G" secondAttribute="trailing" id="YIS-7K-Yoz"/>
+                <constraint firstItem="W8M-5X-Kk1" firstAttribute="centerX" secondItem="xEM-o7-TrU" secondAttribute="centerX" id="c4g-fc-P2e"/>
+                <constraint firstAttribute="trailing" secondItem="yqy-HE-zBI" secondAttribute="trailing" constant="10" id="eDV-XO-srv"/>
+                <constraint firstAttribute="bottom" secondItem="Goa-jg-iGW" secondAttribute="bottom" constant="20" id="eRT-xb-ezm"/>
+                <constraint firstItem="NbZ-68-dcM" firstAttribute="centerY" secondItem="oxF-ju-w4M" secondAttribute="centerY" id="lOq-Bl-7JR"/>
+                <constraint firstItem="W8M-5X-Kk1" firstAttribute="top" secondItem="yqy-HE-zBI" secondAttribute="bottom" constant="10" id="rKh-Cl-c8a"/>
+                <constraint firstItem="Goa-jg-iGW" firstAttribute="centerY" secondItem="oxF-ju-w4M" secondAttribute="centerY" id="sSZ-cU-MOW"/>
+                <constraint firstItem="Vkz-2D-wKm" firstAttribute="leading" secondItem="aZg-oy-mdr" secondAttribute="trailing" id="tTu-Ca-5xo"/>
+                <constraint firstItem="yqy-HE-zBI" firstAttribute="top" secondItem="Lyo-fT-OfE" secondAttribute="bottom" constant="8" symbolic="YES" id="tei-7i-buy"/>
+                <constraint firstItem="NbZ-68-dcM" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="oKy-DR-brZ" secondAttribute="leading" id="z2x-mk-kXm"/>
+                <constraint firstItem="Lyo-fT-OfE" firstAttribute="leading" secondItem="yqy-HE-zBI" secondAttribute="leading" id="zWs-rD-CB5"/>
+                <constraint firstItem="CHo-eF-s3G" firstAttribute="leading" secondItem="Lyo-fT-OfE" secondAttribute="trailing" constant="10" id="zh5-z9-ftb"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="advertiserView" destination="aZg-oy-mdr" id="udo-es-rpw"/>
+                <outlet property="bodyView" destination="yqy-HE-zBI" id="bHs-b5-OKu"/>
+                <outlet property="callToActionView" destination="Goa-jg-iGW" id="l5s-Mf-Kx6"/>
+                <outlet property="headlineView" destination="CHo-eF-s3G" id="nyE-6T-8Yr"/>
+                <outlet property="iconView" destination="Lyo-fT-OfE" id="DST-Mk-LAU"/>
+                <outlet property="mediaView" destination="W8M-5X-Kk1" id="Rq3-OD-gTG"/>
+                <outlet property="priceView" destination="NbZ-68-dcM" id="UjI-hd-Ww4"/>
+                <outlet property="starRatingView" destination="Vkz-2D-wKm" id="XGX-sW-VeU"/>
+                <outlet property="storeView" destination="oxF-ju-w4M" id="CiV-8u-KrO"/>
+            </connections>
+            <point key="canvasLocation" x="-246.37681159420291" y="-215.625"/>
+        </view>
+    </objects>
+    <resources>
+        <systemColor name="systemGreenColor">
+            <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemTealColor">
+            <color red="0.18823529411764706" green="0.69019607843137254" blue="0.7803921568627451" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

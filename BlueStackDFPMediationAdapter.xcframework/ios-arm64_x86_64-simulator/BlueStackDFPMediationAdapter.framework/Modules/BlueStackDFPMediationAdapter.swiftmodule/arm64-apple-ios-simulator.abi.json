@@ -970,7 +970,7 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Volumes\/Development\/BlueStack\/BlueStackGAMAdapter\/BlueStackDFPMediationAdapter\/BlueStackCustomEventMediationExtras.swift",
+      "filePath": "\/Volumes\/Development\/BlueStack\/BlueStackAdaptersForiOS\/BlueStackGAMAdapter\/BlueStackDFPMediationAdapter\/BlueStackCustomEventMediationExtras.swift",
       "kind": "StringLiteral",
       "offset": 230,
       "length": 35,
