@@ -1,0 +1,15 @@
+{
+  "originHash" : "1fcace874b02e8123d09cfddd106f474216fe346848fd9d565f88e4d468815d8",
+  "pins" : [
+    {
+      "identity" : "bluestackdfpmediationadapter",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/azerion/BlueStackDFPMediationAdapter",
+      "state" : {
+        "revision" : "f49eb4c7eea03446df00f50a07bcb2f960c7a182",
+        "version" : "1.0.0"
+      }
+    }
+  ],
+  "version" : 3
+}
